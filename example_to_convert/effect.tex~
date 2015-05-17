@@ -1,0 +1,83 @@
+\documentclass[12pt]{article}
+
+%packages
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[]{listings}
+\end{lstlisting}\begin{document}
+\part{heading1}
+\section{heading3}
+\subsection{heading4}
+\subsubsection{heading5}
+\paragraph{heading6}
+\subparagraph{heading7}
+
+\textbf{BOLD}
+\textit{ITALICS}
+
+\begin{itemize}
+\item BULLETS
+\item ANOTHER ONE
+\item YET ANOTHER
+\end{itemize}
+
+\begin{tabular}{|r|l|}
+\hline
+SECTION&HEADIN\\
+\hline
+ONE	&TWO\\
+\hline
+\end{tabular}
+
+\color{red}{RED COLOR}
+\uppercase{changes case}
+{\lstset{language=python}\lstinputlisting[frame=single]{asd.py}}
+{\lstset{language=python}\begin{lstlisting}[frame=single]:
+language set to python
+\begin{enumerate}
+\item \end{enumerate}
+
+
+
+
+
+
+
+\end{document}
+
+\documentclass{article}
+ 
+ \begin{document}
+#heading1
+##heading2
+###heading3
+####heading4
+#####heading5
+######heading6
+#######heading7
+
+**BOLD**
+*ITALICS*
+
++ BULLETS
+- ANOTHER ONE
+* YET ANOTHER
+
+|SECTION|HEADING|
+|------:|------:|
+|ONE	|TWO	|
+
+~red:RED COLOR~
+~uppercase:changes case~
+~import code:asd.py~
+~python:
+language set to python
+~
+
+
+
+
+
+
+
+
+\end{document}
